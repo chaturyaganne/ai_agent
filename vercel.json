@@ -1,7 +1,17 @@
 {
-  "functions": {
-    "api/chat.py": {
-      "runtime": "python3.9"
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "framework": "nextjs",
+  "env": [
+    {
+      "key": "HF_TOKEN",
+      "scope": "development"
+    },
+    {
+      "key": "NEXT_PUBLIC_API_URL",
+      "value": "http://localhost:8000",
+      "scope": "development"
     }
-  }
+  ]
 }
