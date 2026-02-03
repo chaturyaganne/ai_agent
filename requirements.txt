@@ -7,3 +7,6 @@ hnswlib>=0.8.0
 numpy
 pathlib
 typing-extensions
+fastapi
+requests
+pydantic
