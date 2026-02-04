@@ -145,26 +145,8 @@ npm run test
 npm run type-check
 ```
 
-### Linting
-```bash
-npm run lint
+
 ```
 
-## Contributing
 
-1. Create a feature branch (`git checkout -b feature/amazing-feature`)
-2. Commit your changes (`git commit -m 'Add amazing feature'`)
-3. Push to the branch (`git push origin feature/amazing-feature`)
-4. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For issues and questions, please open an issue on GitHub.
-
----
-
-Built with ❤️ for Hytribe
