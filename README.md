@@ -28,30 +28,44 @@ Dual Interfaces: Includes a production web app and a Gradio dashboard for backen
 
 ## File Structure.
 ├── app/                # Next.js App Router (UI & Page Logic)
+
 ├── components/         # Modular UI: ChatWindow.tsx, UserStatus.tsx
+
 ├── lib/hooks/          # useChat.ts - Custom state management hook
+
 ├── services/           # Python Services: llm_service.py & user_service.py
+
 ├── database/           # DB schema and SQLAlchemy models
+
 ├── api_server.py       # FastAPI server entry point
+
 ├── vercel.json         # Deployment configuration for Vercel
+
 └── requirements.txt    # Python backend dependencies
 
 ## Getting Started
 1. Environment Setup
 Add your keys to your environment or a .env file (ensure .env is in your .gitignore):
 
+
 Bash
 export HF_TOKEN="your_huggingface_token_here"
+
 export NEXT_PUBLIC_API_URL="http://localhost:8000"
+
 2. Running the Backend
 Bash
 pip install -r requirements.txt
+
 python api_server.py
-3. Running the Frontend
+
+4. Running the Frontend
 Bash
 npm install
+
 npm run dev
-🌐 Deployment
+
+## 🌐 Deployment
 This project is configured for easy deployment:
 
 Frontend: Optimized for Vercel with custom build commands.
